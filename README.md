@@ -14,15 +14,15 @@ This repo contains a demo for Azure Container Instances (ACI) which can be deplo
 
 1. Create a new folder on your machine.
 ```
-mkdir <your repo link> e.g. maartenvandiemen/AZD-ACI-Demo
+mkdir maartenvandiemen/AZD-ACI-Demo
 ```
 2. Next, navigate to the new folder.
 ```
-cd <your repo link> e.g. maartenvandiemen/AZD-ACI-Demo
+cd maartenvandiemen/AZD-ACI-Demo
 ```
 3. Next, run `azd init` to initialize the deployment.
 ```
-azd init -t <your repo link> e.g. maartenvandiemen/AZD-ACI-Demo
+azd init -t maartenvandiemen/AZD-ACI-Demo
 ```
 4. Last, run `azd up` to trigger an actual deployment.
 ```
