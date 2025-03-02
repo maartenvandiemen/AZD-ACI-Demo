@@ -39,13 +39,13 @@ This scenario deploys the sample **.NET EShopOnWeb Retail** application as a run
 * %youralias%eshopacr with eshopwebmvc container image - Azure Container Registry
 * %youralias%-aci-eshoponweb-app - Running Azure Container Instance
 
-<img src="img/ResourceGroup_Overview.png" alt="ACI_EShop Resource Group" style="width:70%;">
+<img src="https://raw.githubusercontent.com/maartenvandiemen/AZD-ACI-Demo/refs/heads/main/demoguide/img/ResourceGroup_Overview.png" alt="ACI_EShop Resource Group" style="width:70%;">
 <br></br>
 
-<img src="img/eshopacr.png" alt="ACI_EShop Azure Container Registry" style="width:70%;">
+<img src="https://raw.githubusercontent.com/maartenvandiemen/AZD-ACI-Demo/refs/heads/main/demoguide/img/eshopacr.png" alt="ACI_EShop Azure Container Registry" style="width:70%;">
 <br></br>
 
-<img src="img/eshopaci.png" alt="ACI_EShop Azure Container Instance" style="width:70%;">
+<img src="https://raw.githubusercontent.com/maartenvandiemen/AZD-ACI-Demo/refs/heads/main/demoguide/img/eshopaci.png" alt="ACI_EShop Azure Container Instance" style="width:70%;">
 <br></br>
 
 ### 2. What can I demo from this scenario after deployment
@@ -54,7 +54,7 @@ This scenario deploys the sample **.NET EShopOnWeb Retail** application as a run
 1. Show the container is **running** and highlight the **public IP address**.
 1. **Copy** the public IP address and **navigate** to the EShopOnWeb Retail application from your browser.
 
-<img src="img/eshoponwebsite.png" alt="ACI_EShop Azure Container Instance" style="width:70%;">
+<img src="https://raw.githubusercontent.com/maartenvandiemen/AZD-ACI-Demo/refs/heads/main/demoguide/img/eshoponwebsite.png" alt="ACI_EShop Azure Container Instance" style="width:70%;">
 <br></br>
 
 1. Navigate to **Settings / Containers**
@@ -87,7 +87,3 @@ This scenario deploys the sample **.NET EShopOnWeb Retail** application as a run
 
 **Note:** This is the end of the current demo guide instructions.
 </div>
-
-
-
-
