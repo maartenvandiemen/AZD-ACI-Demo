@@ -34,5 +34,9 @@ module aci 'modules/containerInstance.bicep' = {
   params: {
     tags: tags
     acrName: acr.outputs.registryName
+    pullIdentityId: acr.outputs.pullIdentityId
   }
 }
+
+@description('Public URL of the deployed app (the DNS name stays the same when the container is restarted, the IP address does not)')
+output APP_URL string = 'http://${aci.outputs.fqdn}'
